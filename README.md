@@ -1,13 +1,10 @@
 # Project Overview
-***
 A data science project to predict customers who churn "leave" the company by analyzing all relevant customer data and developing focused customer retention programs 
 
 # The Data:
-***
 The data is sourced from Kaggle (https://www.kaggle.com/blastchar/telco-customer-churn). Our dataset contains 7043 entries representing 7043 unique customers. There are 21 columns, with 19 features (target feature = 'Churn'). The features are numeric and categorical in nature, so we will need to address these differences before modeling.
 
 # Results:
-***
 The final results comparing several models are shown below:
 | Model | Recall | Percision | Specificity | F1 |
 | ------ | ------ | ------ | ------ | ------ |
