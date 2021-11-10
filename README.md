@@ -8,9 +8,12 @@ The data is sourced from Kaggle (https://www.kaggle.com/blastchar/telco-customer
 The final results comparing several models are shown below:
 | Model | Recall | Percision | Specificity | F1 |
 | ------ | ------ | ------ | ------ | ------ |
-| Logistic regression (default) | 0.5738 | 0.7079 | 0.9185 | 0.6338 |
-| Logistic regression (tuned for better recall) | 0.8133 | 0.5122 | 0.7334 | 0.6286 |
-| Random Forest (default) | 0.5041 | 0.7448 | 0.9405 | 0.6013 |
-| Logistic regression (tuned for better recall) | 0.6908 | 0.6375 | 0.8648 | 0.6631 |
-| AdaBoost (default) | 0.5543| 0.7289 | 0.9290 | 0.6297 |
-| AdaBoost (tuned for better recall) |0.8272 | 0.5147 | 0.7315 | 0.6346 |
+| AdaBoost (default) | 0.5081| 0.6283 | 0.8943 | 0.5619 |
+| AdaBoost (tuned for better recall) |0.8934 | 0.4880 | 0.6705 | 0.6312 |
+| Logistic regression (default) | 0.5382 | 0.6234 | 0.8856 | 0.5777 |
+| Logistic regression (tuned for better recall) | 0.8524 | 0.5008 | 0.7012 | 0.6309 |
+| Random Forest (default) | 0.4672 | 0.6576 | 0.9145 | 0.5463 |
+| Random Forest (tuned for better recall) | 0.8278 | 0.5224 | 0.7339 | 0.6405 |
+| SVC (default) | 0.5109 | 0.6296 | 0.8943 | 0.5641 |
+| SVC  (tuned for better recall) | 0.7923 | 0.4841 | 0.7031 | 0.6010 |
+
